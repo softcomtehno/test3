@@ -88,7 +88,7 @@ export const products: Product[] = [
     standards: ['ГОСТ 12.4.253-2013', 'EN 166:2001'],
     images: [
       'https://images.pexels.com/photos/33622/fashion-model-beach-hat.jpg',
-      'https://images.pexels.com/photos/5424711/pexels-photo-5424711.jpeg'
+
     ],
     inStock: true,
     expiryDate: '2028-05-01'
@@ -110,8 +110,8 @@ export const products: Product[] = [
     ],
     standards: ['ГОСТ 12.4.137-2001', 'EN ISO 20345:2011'],
     images: [
-      'https://images.pexels.com/photos/267202/pexels-photo-267202.jpeg',
-      'https://images.pexels.com/photos/2404843/pexels-photo-2404843.jpeg'
+      'https://sizopt.by/siz/zashchita-zreniya/images/zn88-surgut-strongglass.png',
+      
     ],
     inStock: true,
     expiryDate: '2029-10-01'
