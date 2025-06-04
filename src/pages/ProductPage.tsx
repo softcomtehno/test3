@@ -86,25 +86,7 @@ const ProductPage: React.FC = () => {
                 />
               </div>
               
-              {product.images.length > 1 && (
-                <div className="flex space-x-2">
-                  {product.images.map((image, index) => (
-                    <button
-                      key={index}
-                      className={`w-16 h-16 border rounded ${
-                        index === activeImageIndex ? 'border-red-500' : 'border-gray-200'
-                      }`}
-                      onClick={() => setActiveImageIndex(index)}
-                    >
-                      <img 
-                        src={image} 
-                        alt={`${product.name} - изображение ${index + 1}`} 
-                        className="w-full h-full object-cover"
-                      />
-                    </button>
-                  ))}
-                </div>
-              )}
+
             </div>
             
             {/* Product Details */}
